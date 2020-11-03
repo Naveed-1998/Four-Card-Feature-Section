@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    background: hsl(0, 0%, 98%);
+    width: 1440px;
+}
+
+.box-2, 
+.box-3, 
+.box-4, 
+.box-5 {
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+}
+
+/* Box 1 */
+.box-1 {
+    width: 400px;
+    position: relative;
+    text-align: center;
+    left: 500px;
+}
+
+.heading-1 {
+    opacity: 0.2;
+}
+
+.heading-2 {
+    opacity: 0.7;
+}
+
+/* Box 2 */
+.box-2 {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 50px;
+    top: 200px;
+    text-align: left;
+    background: white;
+    border-top: hsl(180, 62%, 55%) 3px solid;
+}
+
+.supervisor {
+    margin-left: 30px;
+}
+
+.paragraph-2 {
+    margin-left: 15px;
+    padding: 0 15px;
+}
+
+.box-2 img {
+    position: relative;
+    left: 300px;
+    top: 75px;   
+}
+
+/* Box 3 */
+.box-3 {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    position: relative;
+    left: 500px;
+    bottom: 275px;
+    background: white;
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.team-builder {
+    margin-left: 30px;
+}
+
+.paragraph-3 {
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+.box-3 img {
+    position: relative;
+    left: 300px;
+    top: 75px;
+}
+
+/* Box 4 */
+.box-4 {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    background: white;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    position: relative;
+    left: 500px;
+    bottom: 250px;
+}
+
+.karma {
+    margin-left: 30px;
+}
+
+.paragraph-4 {
+    margin-left: 17.5px;
+    padding: 0 10px;
+}
+
+.box-4 img {
+    position: relative;
+    left: 300px;
+    top: 75px;
+}
+
+.box-5 {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    background: white;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    position: relative;
+    left: 950px;
+    bottom: 715px;
+}
+
+.calculator {
+    margin-left: 30px;
+}
+
+.paragraph-5 {
+    margin-left: 17.5px;
+    padding: 0 10px;
+}
+
+.box-5 img {
+    position: relative;
+    left: 300px;
+    top: 75px;
+}
+
+/* Media Queries */
+@media(max-width:375px) {
+    body {
+        width: 375px;
+    }
+
+    #container {
+        padding: 5rem;
+    }
+
+    .box {
+        width: 300px;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    img {
+        position: relative;
+        right: 200px;
+    }
+}
